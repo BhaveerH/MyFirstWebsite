@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: url(/images/omar-flores-lQT_bOWtysE-unsplash.jpg) no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+nav {
+  background: rgba(156, 153, 153, 0.555);
+  backdrop-filter: blur(7px);
+  height: 80px;
+  width: 100%;
+}
+
+#logo {
+  color: gold;
+  font-size: 35px;
+  font-weight: bold;
+  font-style: italic;
+  line-height: 80px;
+  background-color: black;
+  margin: 0 50px;
+  padding: 10px 30px;
+  border-radius: 50px;
+}
