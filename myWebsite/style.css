@@ -58,14 +58,14 @@ h1 {
   margin-top: 0px;
 }
 
-ul {
+footer ul {
   float: none;
   text-align: center;
   margin: 35px 300px 0 300px;
   border-radius: 5%;
 }
 
-ul li {
+footer ul li {
   font-size: 25px;
   display: inline-block;
   text-decoration: dashed;
@@ -82,12 +82,17 @@ ul li {
 }
 
 #SectionOne {
+  background: url(/images/idea-gbd2f55519_1920.jpg) ;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-position-y: 0%;
   position: absolute;
   top: 15%;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
-  height: 30%;
+  height: 33%;
   width: 100%;
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
@@ -100,12 +105,12 @@ ul li {
   font-family: 'Open Sans', sans-serif ;
   position: relative;
   font-size: 65px;
-  background-color: black;
-  color: aliceblue;
+  /* background-color: black; */
+  color: rgba(59, 163, 233, 0.959);
   padding: 0 30px;
   border-radius: 10px;
   /* margin-top: 150px; */
-  top: 25%;
+  top: 30%;
   
 }
 
@@ -118,7 +123,7 @@ ul li {
   padding: 0 30px;
   /* border-radius: 10px; */
   /* margin-top: 150px; */
-  top: 50%;
+  top: 44%;
   left: 25%;
   right: 25%;
   
@@ -133,10 +138,148 @@ ul li {
   padding: 0 30px;
   /* border-radius: 10px; */
   /* margin-top: 150px; */
-  top: 55%;
+  top: 48%;
   left: 25%;
   right: 25%;
   
 }
+
+#SectionTwo {
+  background: url(/images/blue-g7f90cfd18_1920.jpg) ;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-position-y: 0%;
+  position: absolute;
+  top: 50.7%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  height: 38%;
+  width: 100%;
+  border-style: solid;
+  border-color: black;
+  text-align: center;
+}
+
+#SectionThree {
+  background: url(/images/code-gc63d9770b_1920.jpg) ;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-position-y: 0%;
+  position: absolute;
+  top: 84.8%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  height: 30%;
+  width: 100%;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-style: solid;
+  border-color: black;
+  text-align: center;
+}
+
+/* a.LinkDes {
+  font-family: 'Open Sans', sans-serif ;
+  font-size: 30px;
+  background: rgba(233, 98, 98, 0.836);
+  top: 150%;
+
+} */
+
+/* nav ul {
+  float: none;
+  margin: 300px 5px 0 5px;
+  
+}
+
+nav ul li{
+  display: inline-block;
+  margin: 0 120px;
+  
+}
+
+nav ul li a{
+  text-decoration: none;
+  font-size: 35px;
+
+} */
+
+#HomeLinks{
+  margin: 193px 0px 0px 0px;
+  font-size: 30px;
+  
+  
+}
+a.LinkDes{
+  background-color: rgb(219, 172, 63);
+  padding: 80px 85px 120px;
+  margin: 0 150px 0 50px;
+  border-radius: 10px;
+  border-bottom-left-radius: 50px;
+  text-decoration: none;
+  color: rgba(59, 163, 233, 0.959);
+ 
+  
+}
+
+a.LinkBlog{
+  background-color: rgb(219, 172, 63);
+  padding: 80px 85px 120px;
+  /* margin: 0 150px; */
+  margin: 0 0 0 0;
+  border-radius: 10px;
+  text-decoration: none;
+  color: rgba(59, 163, 233, 0.959);
+
+}
+
+a.LinkPort{
+  background-color: rgb(219, 172, 63);
+  padding: 80px 85px 120px;
+  margin: 0 50px 0 150px;
+  border-radius: 10px;
+  border-bottom-right-radius: 50px ;
+  text-decoration: none;
+  color: rgba(59, 163, 233, 0.959);
+}
+
+#Des{
+  position: absolute;
+  top: 75%;
+  left: 4.8%;
+  color: rgba(59, 163, 233, 0.959);
+  background-color: rgb(91, 86, 86);
+  padding: 10px 85px 25px 90px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 50px;
+}
+
+#Blo{
+  position: absolute;
+  top: 75%;
+  left: 39.2%;
+  color: rgba(59, 163, 233, 0.959);
+  background-color: rgb(91, 86, 86);
+  padding: 10px 104px 25px 104px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px
+}
+
+#Por{
+  position: absolute;
+  top: 75%;
+  left: 73.65%;
+  color: rgba(59, 163, 233, 0.959);
+  background-color: rgb(91, 86, 86);
+  padding: 10px 70px 25px 70px;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 10px
+}
+
+
 
 
