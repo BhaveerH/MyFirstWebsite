@@ -162,6 +162,34 @@ footer ul li {
   text-align: center;
 }
 
+#AboutHead {
+  color: black;
+  position: absolute;
+  font-size: 35px;
+  font-weight: bold;
+  line-height: 80px;
+  /* background-color: rgba(59, 163, 233, 0.959); */
+  margin: 75px -425px;
+  padding: 0px 30px;
+  border: 3px;
+  border-style: solid;
+}
+
+#AboutP{
+  color: black;
+  position: absolute;
+  font-size: 15px;
+  background-color: rgba(255, 255, 255, 0.27);
+  backdrop-filter: blur(1px);
+  margin: 250px 650px 0 30px;
+  padding: 5px 5px;
+  border: 3px;
+  border-style: solid;
+  text-align: left;
+  line-height: 20px ;
+  
+}
+
 #SectionThree {
   background: url(/images/code-gc63d9770b_1920.jpg) ;
   background-size: 100%;
@@ -211,6 +239,7 @@ nav ul li a{
 #HomeLinks{
   margin: 193px 0px 0px 0px;
   font-size: 30px;
+  font-family: 'Open Sans', sans-serif ;
   
   
 }
@@ -249,7 +278,7 @@ a.LinkPort{
 
 #Des{
   position: absolute;
-  top: 75%;
+  top: 155%;
   left: 4.8%;
   color: rgba(59, 163, 233, 0.959);
   background-color: rgb(91, 86, 86);
@@ -260,7 +289,7 @@ a.LinkPort{
 
 #Blo{
   position: absolute;
-  top: 75%;
+  top: 155%;
   left: 39.2%;
   color: rgba(59, 163, 233, 0.959);
   background-color: rgb(91, 86, 86);
@@ -271,7 +300,7 @@ a.LinkPort{
 
 #Por{
   position: absolute;
-  top: 75%;
+  top: 155%;
   left: 73.65%;
   color: rgba(59, 163, 233, 0.959);
   background-color: rgb(91, 86, 86);
@@ -280,6 +309,105 @@ a.LinkPort{
   border-bottom-left-radius: 10px
 }
 
+a :hover{
+  color: crimson;
+}
+
+nav {
+  top: 0;
+  left: 0;
+  right: 0;
+  position: relative;
+} 
+
+nav ul {
+  float: right;
+  /* margin-right: 40px;
+  margin-top: 0px; */
+  margin: 16px 55px;
+  text-align: center; 
+  
+}
+
+nav ul li{
+  display: inline-block;
+  margin-right: 25px;
 
 
+  
+}
+
+nav ul li a{
+  text-decoration: none;
+  font-size: 25px;
+  color: gold;
+  margin: 0 20px;
+  
+
+} 
+
+#HeaderNav {
+  background-color: black;
+  font-family: 'Open Sans', sans-serif;
+  padding: 5px 30px;
+  border-radius: 50px; 
+  line-height: 35px;
+}
+
+a:hover{
+  color: rgba(233, 98, 98, 0.836) ;
+}
+
+#BlogHead{
+  color: black;
+  position: absolute;
+  font-size: 35px;
+  font-weight: bold;
+  line-height: 80px;
+  /* background-color: rgba(59, 163, 233, 0.959); */
+  margin: 50px -500px;
+  padding: 0px 30px;
+  border: 3px;
+  border-style: solid;
+}
+
+#SectionOneB {
+  background: url(/images/pink-g3f5e061dc_1920.jpg) ;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-position-y: 0%;
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  height: 33%;
+  width: 100%;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-style: solid;
+  border-color: black;
+  text-align: center;
+}
+
+#SectionTwoB {
+  background: url(/images/blue-g7f90cfd18_1920.jpg) ;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-position-y: 0%;
+  position: absolute;
+  top: 65.75%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  height: 68%;
+  width: 100%;
+  border-style: solid;
+  border-color: black;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  text-align: center;
+}
 
