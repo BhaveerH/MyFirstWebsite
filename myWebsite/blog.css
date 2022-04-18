@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Khand&display=swap');
 
 body {
-   font-family: 'Open Sans', sans-serif;
+   /* font-family: 'Open Sans', sans-serif; */
+  font-family: 'Khand', sans-serif;
   background: url(/images/omar-flores-lQT_bOWtysE-unsplash.jpg) no-repeat;
   background-size: cover;
   height: 100vh;
@@ -10,7 +11,8 @@ body {
 
 header {
   
-  font-family: 'Open Sans', sans-serif;
+  /* font-family: 'Open Sans', sans-serif; */
+  font-family: 'Khand', sans-serif;
   background: rgba(156, 153, 153, 0.555);
   backdrop-filter: blur(7px);
   height: 80px;
@@ -44,7 +46,8 @@ main {
 }
 
 footer {
-  font-family: 'Open Sans', sans-serif;
+  /* font-family: 'Open Sans', sans-serif; */
+  font-family: 'Khand', sans-serif;
   background: rgba(156, 153, 153, 0.555);
   backdrop-filter: blur(7px);
   height: 100px;
@@ -74,7 +77,8 @@ footer ul li {
 #foot {
   
   background-color: rgba(233, 98, 98, 0.836);
-  font-family: 'Open Sans', sans-serif;
+  /* font-family: 'Open Sans', sans-serif; */
+  font-family: 'Khand', sans-serif;
   padding: 5px 30px;
   border-radius: 50px;
   
@@ -119,7 +123,8 @@ nav ul li a{
 
 #HeaderNav {
   background-color: black;
-  font-family: 'Open Sans', sans-serif;
+  /* font-family: 'Open Sans', sans-serif; */
+  font-family: 'Khand', sans-serif;
   padding: 5px 30px;
   border-radius: 50px; 
   line-height: 35px;
@@ -148,6 +153,7 @@ a:hover{
   background-repeat: no-repeat;
   background-position: 50%;
   background-position-y: 0%;
+  font-family: 'Khand', sans-serif;
   position: absolute;
   top: 15%;
   left: 50%;
@@ -164,6 +170,7 @@ a:hover{
 #AboutHead {
     color: black;
     position: absolute;
+    font-family: 'Khand', sans-serif;
     font-size: 35px;
     font-weight: bold;
     line-height: 80px;
@@ -177,16 +184,51 @@ a:hover{
   #AboutP{
     color: black;
     position: absolute;
-    font-size: 18px;
-    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Khand', sans-serif;
     background-color: rgba(255, 255, 255, 0.27);
     backdrop-filter: blur(0.5px);
-    margin: 250px 108px 0 108px;
+    margin: 200px 108px 0 108px;
     padding: 5px 5px;
     border: 3px;
     border-style: solid;
     text-align: left;
-    line-height: 20px ;
+    line-height: 25px ;
+    
+  }
+
+  #AboutP2{
+    color: black;
+    position: absolute;
+    font-size: 20px;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Khand', sans-serif;
+    background-color: rgba(255, 255, 255, 0.27);
+    backdrop-filter: blur(0.5px);
+    margin: 150px 108px 0 108px;
+    padding: 5px 5px;
+    border: 3px;
+    border-style: solid;
+    text-align: left;
+    line-height: 21.5px ;
+    
+  }
+
+  #AboutP3{
+    color: black;
+    position: absolute;
+    font-size: 20px;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Khand', sans-serif;
+    background-color: rgba(255, 255, 255, 0.27);
+    backdrop-filter: blur(0.5px);
+    margin: 160px 108px 0 108px;
+    padding: 5px 5px;
+    border: 3px;
+    border-style: solid;
+    text-align: left;
+    line-height: 25px ;
     
   }
 
