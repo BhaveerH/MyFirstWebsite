@@ -250,3 +250,27 @@ section nav ol li{
 a.active {
     color: rgba(59, 163, 233, 0.959);
 }
+
+#wfHome{
+  position: absolute;
+  margin: 160px -435px;
+  border: 3px;
+  border-color: black;
+  border-style: solid;
+}
+
+#wfBlog{
+  position: absolute;
+  margin: 160px -435px;
+  border: 3px;
+  border-color: black;
+  border-style: solid;
+}
+
+#wfPortfolio{
+  position: absolute;
+  margin: 160px -435px;
+  border: 3px;
+  border-color: black;
+  border-style: solid;
+}
