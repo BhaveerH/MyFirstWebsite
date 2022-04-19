@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Khand&display=swap');
 
 body {
-   font-family: 'Open Sans', sans-serif;
   background: url(/images/omar-flores-lQT_bOWtysE-unsplash.jpg) no-repeat;
   background-size: cover;
   height: 100vh;
@@ -189,12 +188,46 @@ a:hover{
     font-family: 'Khand', sans-serif;
     background-color: rgba(255, 255, 255, 0.27);
     backdrop-filter: blur(0.5px);
-    margin: 250px 108px 0 108px;
+    margin: 200px 108px 0 108px;
     padding: 5px 5px;
     border: 3px;
     border-style: solid;
     text-align: left;
-    line-height: 20px ;
+    line-height: 25px ;
+    
+  }
+
+  #AboutP2{
+    color: black;
+    position: absolute;
+    font-size: 18px;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Khand', sans-serif;
+    background-color: rgba(255, 255, 255, 0.27);
+    backdrop-filter: blur(0.5px);
+    margin: 600px 108px 0 108px;
+    padding: 5px 5px;
+    border: 3px;
+    border-style: solid;
+    text-align: left;
+    line-height: 25px ;
+    
+  }
+
+  #AboutP3{
+    color: black;
+    position: absolute;
+    font-size: 18px;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Khand', sans-serif;
+    background-color: rgba(255, 255, 255, 0.27);
+    backdrop-filter: blur(0.5px);
+    margin: 550px 108px 0 108px;
+    padding: 5px 5px;
+    border: 3px;
+    border-style: solid;
+    text-align: left;
+    line-height: 25px ;
     
   }
 
@@ -273,4 +306,80 @@ a.active {
   border: 3px;
   border-color: black;
   border-style: solid;
+}
+
+#sgCol{
+  position: absolute;
+  margin: 160px -400px;
+  border: 3px;
+  border-color: black;
+  border-style: solid;
+}
+
+#sgIcon{
+  position: absolute;
+  margin: 350px -225px;
+  border: 3px;
+  border-color: black;
+  border-style: solid;
+}
+
+#labelIcon
+{
+  position: absolute;
+  font-size: 18px;
+  margin: 550px -115px;
+}
+
+#sgB1{
+  position: absolute;
+  margin: 800px -225px;
+  border: 3px;
+  border-color: black;
+  border-style: solid;
+}
+
+#sgB2{
+  position: absolute;
+  margin: 860px -100px;
+  border: 3px;
+  border-color: black;
+  border-style: solid;
+}
+
+#sgB3{
+  position: absolute;
+  margin: 830px 85px;
+  border: 3px;
+  border-color: black;
+  border-style: solid;
+}
+
+#labelIcon2
+{
+  position: absolute;
+  font-size: 18px;
+  margin: 990px -115px;
+}
+
+#sgheader{
+  position: absolute;
+  margin: 375px -485px;
+  border: 3px;
+  border-color: black;
+  border-style: solid;
+}
+#sgfooter{
+  position: absolute;
+  margin: 430px -485px;
+  border: 3px;
+  border-color: black;
+  border-style: solid;
+}
+
+#labelhf
+{
+  position: absolute;
+  font-size: 18px;
+  margin: 500px -115px;
 }

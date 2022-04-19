@@ -101,7 +101,7 @@ footer ul li {
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
   border-style: solid;
-  border-color: black;
+  border-color: rgb(0, 0, 0);
   text-align: center;
 }
 
@@ -112,7 +112,7 @@ footer ul li {
   position: relative;
   font-size: 65px;
   /* background-color: black; */
-  color: rgba(59, 163, 233, 0.959);
+  color: rgba(59, 163, 233, 0.961);
   padding: 0 30px;
   border-radius: 10px;
   /* margin-top: 150px; */
