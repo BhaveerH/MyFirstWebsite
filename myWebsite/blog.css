@@ -3,7 +3,7 @@
 
 body {
   font-family: 'Khand', sans-serif;
-  background: url(/images/omar-flores-lQT_bOWtysE-unsplash.jpg) no-repeat;
+  background: url(/myWebsite/images/omar-flores-lQT_bOWtysE-unsplash.jpg) no-repeat;
   background-size: cover;
   height: 100vh;
 }
@@ -131,7 +131,7 @@ a:hover{
 }
 
 #SectionOneB {
-  background: url(/images/pink-g3f5e061dc_1920.jpg) ;
+  background: url(/myWebsite/images/pink-g3f5e061dc_1920.jpg) ;
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: 50%;
@@ -209,7 +209,7 @@ a:hover{
   }
 
 #SectionTwoB {
-  background: url(/images/blue-g7f90cfd18_1920.jpg) ;
+  background: url(/myWebsite/images/blue-g7f90cfd18_1920.jpg) ;
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: 50%;

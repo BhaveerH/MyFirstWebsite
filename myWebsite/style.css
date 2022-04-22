@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Khand&display=swap');
 
 body {
-  background: url(/images/omar-flores-lQT_bOWtysE-unsplash.jpg) no-repeat;
+  background: url(/myWebsite/images/omar-flores-lQT_bOWtysE-unsplash.jpg) no-repeat;
   background-size: cover;
   height: 100vh;
 }
@@ -80,7 +80,7 @@ footer ul li {
 }
 
 #SectionOne {
-  background: url(/images/idea-gbd2f55519_1920.jpg) ;
+  background: url(/myWebsite/images/idea-gbd2f55519_1920.jpg) ;
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: 50%;
@@ -132,7 +132,7 @@ footer ul li {
 }
 
 #SectionTwo {
-  background: url(/images/blue-g7f90cfd18_1920.jpg) ;
+  background: url(/myWebsite/images/blue-g7f90cfd18_1920.jpg) ;
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: 50%;
@@ -179,7 +179,7 @@ footer ul li {
 }
 
 #SectionThree {
-  background: url(/images/code-gc63d9770b_1920.jpg) ;
+  background: url(/myWebsite/images/code-gc63d9770b_1920.jpg) ;
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: 50%;
@@ -320,7 +320,7 @@ a:hover{
 }
 
 #SectionOneB {
-  background: url(/images/pink-g3f5e061dc_1920.jpg) ;
+  background: url(/myWebsite/images/pink-g3f5e061dc_1920.jpg) ;
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: 50%;
@@ -340,7 +340,7 @@ a:hover{
 }
 
 #SectionTwoB {
-  background: url(/images/blue-g7f90cfd18_1920.jpg) ;
+  background: url(/myWebsite/images/blue-g7f90cfd18_1920.jpg) ;
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: 50%;
