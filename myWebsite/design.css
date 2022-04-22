@@ -167,7 +167,7 @@ a:hover{
   #AboutP{
   color: black;
   position: absolute;
-  font-size: 18px;
+  font-size: 20px;
   font-family: 'Khand', sans-serif;
   background-color: rgba(255, 255, 255, 0.27);
   backdrop-filter: blur(0.5px);
@@ -182,7 +182,7 @@ a:hover{
   #AboutP2{
   color: black;
   position: absolute;
-  font-size: 18px;
+  font-size: 20px;
   font-family: 'Khand', sans-serif;
   background-color: rgba(255, 255, 255, 0.27);
   backdrop-filter: blur(0.5px);
@@ -197,7 +197,7 @@ a:hover{
   #AboutP3{
   color: black;
   position: absolute;
-  font-size: 18px;
+  font-size: 20px;
   font-family: 'Khand', sans-serif;
   background-color: rgba(255, 255, 255, 0.27);
   backdrop-filter: blur(0.5px);
@@ -212,7 +212,7 @@ a:hover{
   #AboutP4{
   color: black;
   position: absolute;
-  font-size: 18px;
+  font-size: 20px;
   font-family: 'Khand', sans-serif;
   background-color: rgba(255, 255, 255, 0.27);
   backdrop-filter: blur(0.5px);
@@ -227,11 +227,11 @@ a:hover{
   #AboutP5{
   color: black;
   position: absolute;
-  font-size: 18px;
+  font-size: 19px;
   font-family: 'Khand', sans-serif;
   background-color: rgba(255, 255, 255, 0.27);
   backdrop-filter: blur(0.5px);
-  margin: 400px 108px 0 108px;
+  margin: 437px 108px 0 108px;
   padding: 5px 5px;
   border: 3px;
   border-style: solid;
@@ -242,17 +242,32 @@ a:hover{
   #AboutP6{
   color: black;
   position: absolute;
-  font-size: 18px;
+  font-size: 19px;
   font-family: 'Khand', sans-serif;
   background-color: rgba(255, 255, 255, 0.27);
   backdrop-filter: blur(0.5px);
-  margin: 725px 108px 0 108px;
+  margin: 775px 108px 0 108px;
   padding: 5px 5px;
   border: 3px;
   border-style: solid;
   text-align: left;
   line-height: 25px ;  
   }
+
+  #AboutP7{
+    color: black;
+    position: absolute;
+    font-size: 19px;
+    font-family: 'Khand', sans-serif;
+    background-color: rgba(255, 255, 255, 0.27);
+    backdrop-filter: blur(0.5px);
+    margin: 150px 108px 0 108px;
+    padding: 5px 5px;
+    border: 3px;
+    border-style: solid;
+    text-align: left;
+    line-height: 25px ; 
+    }
 
 #SectionTwoB {
   background: url(/images/blue-g7f90cfd18_1920.jpg) ;
@@ -337,7 +352,7 @@ a.active {
 
 #sgB1{
   position: absolute;
-  margin: 800px -225px;
+  margin: 830px -225px;
   border: 3px;
   border-color: black;
   border-style: solid;
@@ -345,7 +360,7 @@ a.active {
 
 #sgB2{
   position: absolute;
-  margin: 860px -100px;
+  margin: 890px -100px;
   border: 3px;
   border-color: black;
   border-style: solid;
@@ -353,7 +368,7 @@ a.active {
 
 #sgB3{
   position: absolute;
-  margin: 830px 85px;
+  margin: 860px 85px;
   border: 3px;
   border-color: black;
   border-style: solid;
@@ -363,7 +378,7 @@ a.active {
 {
   position: absolute;
   font-size: 18px;
-  margin: 990px -115px;
+  margin: 1020px -125px;
 }
 
 #sgheader{
