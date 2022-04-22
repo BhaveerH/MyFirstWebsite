@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Khand&display=swap');
 
 body {
-  background: url(/myWebsite/images/omar-flores-lQT_bOWtysE-unsplash.jpg) no-repeat;
+  background: url(images/omar-flores-lQT_bOWtysE-unsplash.jpg) no-repeat;
   background-size: cover;
   height: 100vh;
 }
@@ -131,7 +131,7 @@ font-family: 'Khand', sans-serif;
 }
 
 #SectionOneB {
-  background: url(/myWebsite/images/pink-g3f5e061dc_1920.jpg) ;
+  background: url(images/pink-g3f5e061dc_1920.jpg) ;
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: 50%;
@@ -211,7 +211,7 @@ font-family: 'Khand', sans-serif;
   
 
 #SectionTwoB {
-  background: url(/myWebsite/images/blue-g7f90cfd18_1920.jpg) ;
+  background: url(images/blue-g7f90cfd18_1920.jpg) ;
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: 50%;
