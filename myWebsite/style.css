@@ -99,7 +99,7 @@ footer ul li {
   text-align: center;
 }
 
-#Hello {
+.Hello {
   font-family: 'Khand', sans-serif;
   position: relative;
   font-size: 65px;
@@ -109,6 +109,17 @@ footer ul li {
   top: 30%;
 }
 
+.Hello::after {
+  content: '|';
+  margin-left: 5px;
+  animation: blink 0.6s infinite;
+}
+
+@keyframes blink {
+  0% {opacity: 1;}
+  100% {opacity: 0;}
+  
+}
 #Intro {
   font-family: 'Khand', sans-serif;
   position: absolute;
