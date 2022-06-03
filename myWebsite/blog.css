@@ -106,6 +106,15 @@ nav ul li a{
   margin: 0 20px;
 } 
 
+nav ul li button{
+  text-decoration: none;
+  font-size: 25px;
+  color: gold;
+  margin: 0 20px;
+  background: none;
+  cursor: pointer;
+} 
+
 #HeaderNav {
   background-color: black;
   font-family: 'Khand', sans-serif;
@@ -115,6 +124,10 @@ nav ul li a{
 }
 
 a:hover{
+  color: rgba(233, 98, 98, 0.836) ;
+}
+
+button:hover{
   color: rgba(233, 98, 98, 0.836) ;
 }
 

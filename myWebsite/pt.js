@@ -1,0 +1,32 @@
+const btnDesign = document.getElementById('linkDesign');
+const btnIndex = document.getElementById('linkIndex');
+const btnBlog = document.getElementById('linkBlog');
+let iSlideCount = 0;
+slideShow();
+
+function slideShow() {
+  let slideDeck = document.getElementsByClassName("mySlides");
+  for (let i = 0; i < slideDeck.length; i++) {
+    slideDeck[i].style.display = "none";
+  }
+  iSlideCount++;
+  if (iSlideCount > slideDeck.length) {iSlideCount = 1}
+  slideDeck[iSlideCount-1].style.display = "block";
+  setTimeout(slideShow, 3000); // Change image every 3 seconds
+}
+
+function designLinkClick() {
+  window.open("design.html", "_blank");
+}
+
+function homeLinkClick() {
+  window.open("../index.html", "_blank");
+}
+
+function blogLinkClick() {
+  window.open("blog.html", "_blank");
+}
+
+btnDesign.addEventListener('click', designLinkClick);
+btnIndex.addEventListener('click', homeLinkClick);
+btnBlog.addEventListener('click', blogLinkClick);

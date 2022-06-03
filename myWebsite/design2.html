@@ -10,7 +10,7 @@
       name="description"
       content="Bhaveer Hargovind, wireframe of blog page"
     />
-    <link rel="stylesheet" href="normalize.css" /> 
+    <link rel="stylesheet" href="normalize.css" />
     <link rel="stylesheet" href="design.css" />
     <title>myFirstWebsite - Wireframes - BlogPage</title>
 
@@ -22,14 +22,7 @@
   <header>
     <nav>
       <ul for="HeaderNav" id="HeaderNav">
-        <li><a class="u-url" href="../index.html" target="_blank">Home</a></li>
-        <li>
-          <i
-            class="fa-solid fa-atom"
-            style="color: rgba(233, 98, 98, 0.836)"
-          ></i>
-        </li>
-        <li><a class="u-url" href="blog.html" target="_blank">Blog</a></li>
+        <li><button class="u-url" id="linkIndex">Home</button></li>
         <li>
           <i
             class="fa-solid fa-atom"
@@ -37,23 +30,38 @@
           ></i>
         </li>
         <li>
-          <a class="u-url" href="portfolio.html" target="_blank">Portfolio</a>
+          <button class="u-url" id="linkBlog">Blog</button>
+        </li>
+        <li>
+          <i
+            class="fa-solid fa-atom"
+            style="color: rgba(233, 98, 98, 0.836)"
+          ></i>
+        </li>
+        <li>
+          <button class="u-url" id="linkPort">Portfolio</button>
         </li>
       </ul>
     </nav>
     <h1>
-      <labe class="p-label p-name"l for="logo" id="logo">Bhaveer Hargovind</label>
+      <label class="p-label p-name" l for="logo" id="logo"
+        >Bhaveer Hargovind</label
+      >
     </h1>
   </header>
   <body>
     <main>
       <article class="h-entry">
         <section class="e-content" for="SectionOneB" id="SectionOneB">
-          <h2><label class="p-label" for="BlogHead" id="BlogHead">Design</label></h2>
+          <h2>
+            <label class="p-label" for="BlogHead" id="BlogHead">Design</label>
+          </h2>
           <nav>
             <ol>
               <li>
-                <a class="u-url" href="design.html" target="_self">Wireframes - HomePage</a>
+                <a class="u-url" href="design.html" target="_self"
+                  >Wireframes - HomePage</a
+                >
               </li>
               <li>
                 <a href="design2.html" target="_self" class="active u-url"
@@ -71,7 +79,9 @@
                 >
               </li>
               <li>
-                <a class="u-url" href="design5.html" target="_self">Styleguide - Layout</a>
+                <a class="u-url" href="design5.html" target="_self"
+                  >Styleguide - Layout</a
+                >
               </li>
               <li>
                 <a class="u-url" href="design6.html" target="_self"
@@ -79,17 +89,21 @@
                 >
               </li>
               <li>
-                <a class="u-url" href="design7.html" target="_self">Reflection of Work</a>
+                <a class="u-url" href="design7.html" target="_self"
+                  >Reflection of Work</a
+                >
               </li>
             </ol>
           </nav>
         </section>
         <section class="e-content" for="SectionTwoB" id="SectionTwoB">
           <h2>
-            <label class="p-label" for="AboutHead" id="AboutHead">Wireframes - BlogPage</label>
+            <label class="p-label" for="AboutHead" id="AboutHead"
+              >Wireframes - BlogPage</label
+            >
           </h2>
           <img
-          class="u-photo"
+            class="u-photo"
             src="images/wireframe-Blog_page-0001 (1).jpg"
             alt="Wireframes - BlogPage"
             id="wfHome"
@@ -99,6 +113,7 @@
         </section>
       </article>
     </main>
+    <script src="design.js"></script>
   </body>
   <footer>
     <ul for="foot" id="foot">
