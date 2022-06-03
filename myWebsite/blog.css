@@ -258,14 +258,19 @@ section nav ol li{
     margin-right: 25px;
   }
   
- section nav ol li a{
+ section nav ol li label{
     text-decoration: none;
     list-style-type: decimal;
     font-size: 25px;
     color: black;
     margin: 0 20px;
+    cursor: pointer;
   } 
 
-a.active {
+section nav ol li label.active {
     color: rgba(59, 163, 233, 0.959);
+}
+
+section nav ol li label:hover {
+  color: rgba(233, 98, 98, 0.836) ;
 }
