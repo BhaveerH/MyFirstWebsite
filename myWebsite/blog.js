@@ -9,6 +9,8 @@ const bLinkFive = document.getElementById('linkFive');
 const bLinkSix = document.getElementById('linkSix');
 const bLinkSeven = document.getElementById('linkSeven');
 const bLinkEight = document.getElementById('linkEight');
+const bLinkNine = document.getElementById('linkNine');
+const bLinkTen = document.getElementById('linkTen');
 
 function designLinkClick() {
   window.open("design.html", "_blank");
@@ -54,6 +56,14 @@ function bLinkEightClick() {
   window.open("blog8.html", "_self");
 }
 
+function bLinkNineClick() {
+  window.open("blog9.html", "_self");
+}
+
+function bLinkTenClick() {
+  window.open("blog10.html", "_self");
+}
+
 btnDesign.addEventListener('click', designLinkClick);
 btnIndex.addEventListener('click', homeLinkClick);
 btnPort.addEventListener('click', portLinkClick);
@@ -65,3 +75,5 @@ bLinkFive.addEventListener('click', bLinkFiveClick);
 bLinkSix.addEventListener('click', bLinkSixClick);
 bLinkSeven.addEventListener('click', bLinkSevenClick);
 bLinkEight.addEventListener('click', bLinkEightClick);
+bLinkNine.addEventListener('click', bLinkNineClick);
+bLinkTen.addEventListener('click', bLinkTenClick);

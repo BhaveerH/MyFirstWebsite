@@ -340,3 +340,22 @@ a.active {
   from {opacity: .4}
   to {opacity: 1}
 }
+
+.profile{
+  margin: 200px 10px 0 50px;
+  
+}
+
+.profile ul{
+float: left;
+border-style: solid;
+padding: 30px 30px;
+font-family: 'Khand', sans-serif;
+font-size: 18px;
+text-align: left;
+margin: 0px 143px;
+}
+
+.profile ul li{
+  display: inline-table;
+}
