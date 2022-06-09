@@ -244,7 +244,7 @@ button:hover{
   font-family: 'Khand', sans-serif;
   background-color: rgba(255, 255, 255, 0.27);
   backdrop-filter: blur(0.5px);
-  margin: 437px 108px 0 108px;
+  margin: 650px 108px 0 108px;
   padding: 5px 5px;
   border: 3px;
   border-style: solid;
@@ -559,7 +559,7 @@ label.active {
 
     #AboutP5{
       font-size: 0.65rem;
-      margin: 190px 30px 0 30px;
+      margin: 320px 30px 0 30px;
       padding: 5px 5px;
       border: 3px;
       border-style: solid;
@@ -863,7 +863,7 @@ section nav ol li{
 
     #AboutP5{
       font-size: 1.25rem;
-      margin: 325px 30px 0 30px;
+      margin: 500px 30px 0 30px;
       padding: 5px 5px;
       border: 3px;
       border-style: solid;

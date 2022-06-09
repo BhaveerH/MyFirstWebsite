@@ -12,7 +12,7 @@ function slideShow() {
   iSlideCount++;
   if (iSlideCount > slideDeck.length) {iSlideCount = 1}
   slideDeck[iSlideCount-1].style.display = "block";
-  setTimeout(slideShow, 3000); // Change image every 3 seconds
+  setTimeout(slideShow, 3000); 
 }
 
 function designLinkClick() {

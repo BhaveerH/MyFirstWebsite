@@ -8,6 +8,8 @@ const dLinkFour = document.getElementById('linkFour');
 const dLinkFive = document.getElementById('linkFive');
 const dLinkSix = document.getElementById('linkSix');
 const dLinkSeven = document.getElementById('linkSeven');
+const dLinkEight = document.getElementById('linkEight');
+const dLinkNine = document.getElementById('linkNine');
 
 
 function blogLinkClick() {
@@ -50,6 +52,16 @@ function dLinkSevenClick() {
   window.open("design7.html", "_self");
 }
 
+function dLinkEightClick() {
+  window.open("design8.html", "_self");
+}
+
+function dLinkNineClick() {
+  window.open("design9.html", "_self");
+}
+
+
+
 
 btnBlog.addEventListener('click', blogLinkClick);
 btnIndex.addEventListener('click', homeLinkClick);
@@ -61,3 +73,5 @@ dLinkFour.addEventListener('click', dLinkFourClick);
 dLinkFive.addEventListener('click', dLinkFiveClick);
 dLinkSix.addEventListener('click', dLinkSixClick);
 dLinkSeven.addEventListener('click', dLinkSevenClick);
+dLinkEight.addEventListener('click', dLinkEightClick);
+dLinkNine.addEventListener('click', dLinkNineClick);
