@@ -350,7 +350,9 @@ margin: -6.5% 3.3%;
 line-height: 80px;
 float: right;
 cursor: pointer;
+
 }
+
 
 #menuCheck{
   display: none;
@@ -416,43 +418,44 @@ cursor: pointer;
 
   #HomeLinks{
     margin: 40px 0px 0px 0px;
+    display: flex;
   }
   button.LinkDes{
     padding: 20px 30px 60px;
-    margin: 0 350px 0 20px;
+    margin: 0 350px 0 25px;
   }
   
   button.LinkBlog{
     padding: 20px 30px 60px;
-    margin: 0 0 0 140px;
+    margin: 0 52px 0 -295px;
   }
   
   button.LinkPort{
     padding: 20px 30px 60px;
-    margin: 0px 0px 0 60px;
+    margin: 0px 0px 0 0px;
   }
   
   #Des{
     font-size: 1rem;
-    top: 31%;
-    left: 4.2%;
+    top: 59%;
+    left: 5.3%;
     padding: 10px 34px 25px 34px;
 
   }
   
   #Blo{
     font-size: 1rem;
-    top: 72%;
+    top: 59%;
     left: 39.25%;
-    padding: 10px 35px 25px 35px;
+    padding: 10px 41px 25px 41px;
 
   }
   
   #Por{
     font-size: 1rem;
-    top: 72%;
-    left: 73.5%;
-    padding: 10px 25px 25px 25px;
+    top: 59%;
+    left: 72.9%;
+    padding: 10px 29px 25px 29px;
 
   }
 
@@ -515,7 +518,7 @@ cursor: pointer;
     width: 187.5px;
   }
 
-  #menuCheck:checked ~ ul{
+  #menuCheck:checked {
     left: 0;
   }
 
