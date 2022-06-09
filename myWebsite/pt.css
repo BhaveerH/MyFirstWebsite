@@ -706,3 +706,277 @@ margin: -10px 603px;
   }
 
 }
+
+@media (min-width: 401px) and (max-width:821px)
+{
+
+  body {
+    width: 100vw;
+    background-repeat: repeat;
+  }
+
+  header{
+   width: 135.5vw;
+  }
+
+  #BlogHead{
+    color: black;
+    position: absolute;
+    font-size: 1rem;
+    line-height: 40px;
+    margin: -10px -155px;
+    padding: 0px 20px;
+
+  }
+
+  #SectionOneB {
+    position: absolute;
+    top: 78%;
+    left: 72%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    height: 35vh;
+    width: 150%;
+    line-height: 11px;
+  }
+
+  #SectionTwoB {
+    top: 140%;
+    left: 72%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    height: 65vh;
+    width: 150%;
+    background-repeat: repeat-y;
+  }
+
+  #SectionThree {
+    top: 142%;
+    left: 72%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    height: 25vh;
+    width: 150%;
+  }
+  
+
+  #AboutHead {
+    font-size: 2rem;
+    line-height: 60px;
+    margin: 10px -400px;
+    padding: 0px 10px;
+  }
+
+  #AboutP{
+    font-size: 0.75rem;
+    margin: 55px 34px -20px 34px;
+    padding: 5px 5px;
+    border: 3px;
+    border-style: solid;
+    text-align: left;
+    line-height: 11px ;
+  }
+
+  #AboutP2{
+    font-size: 0.65rem;
+    margin: 40px 10px -20px 10px;
+    padding: 5px 5px;
+    border: 3px;
+    border-style: solid;
+    text-align: left;
+    line-height: 10px ;
+  }
+
+  #AboutP2{
+    font-size: 0.65rem;
+    margin: 40px 10px -20px 10px;
+    padding: 5px 5px;
+    border: 3px;
+    border-style: solid;
+    text-align: left;
+    line-height: 10px ;
+  }
+  
+  #AboutP3{
+    font-size: 0.65rem;
+    margin: 40px 10px -20px 10px;
+    padding: 5px 5px;
+    border: 3px;
+    border-style: solid;
+    text-align: left;
+    line-height: 11px ;
+  }
+
+
+  #logo{
+    padding: 0 3%;
+  }
+
+  .bars{
+    display: block;
+    margin: -9% 3.3%;
+  }
+
+  nav ul{
+    position: fixed;
+    width: 100%;
+    height: 50vh;
+    text-align: center;
+    top: 69px;
+    z-index: 1;
+    left: -130%;
+  }
+
+  #HeaderNav{
+    background:  rgba(156, 153, 153, 0.659);
+  }
+  nav ul li{
+    display: block;
+    padding: 10px 0;
+
+  }
+
+  nav ul li label{
+    font-size: 25px;
+    background-color: black;
+  }
+
+
+  #menuCheck:checked {
+    left: 0;
+  }
+
+  footer {
+    height: 11vh;
+    width: 135.5vw;
+    position: absolute;
+    top: 125%;
+  }
+
+  main {
+    top: 10%;
+     height: 80vh ;
+  }
+
+  footer ul {
+    margin: 3% 2% 0 2%;
+
+  }
+
+  footer ul li {
+    font-size: 2rem;
+    display: inline-block;
+    text-decoration: dashed;
+    margin: 0 2.9%;
+  }
+
+  #foot {
+    padding: 0.8% 3%;
+    border-radius: 22.7rem;
+    
+  }
+
+  section nav ol {
+    margin: 40px 20px; 
+  }
+  
+section nav ol li{
+    font-size: 0.75rem;
+  }
+  
+ section nav ol li label{
+    font-size: 0.5rem;
+  } 
+
+  #eduGame
+{
+  height: 468px;
+  width: 700px;
+  border: 3px;
+  border-color: black;
+  border-style: solid;
+}
+
+#lasGame
+{
+  height: 468px;
+  width: 700px;
+  border: 3px;
+  border-color: black;
+  border-style: solid;
+}
+
+#jengaGame
+{
+  height: 468px;
+  width: 700px;
+  border: 3px;
+  border-color: black;
+  border-style: solid;
+}
+
+#aaGame
+{
+  height: 468px;
+  width: 700px;
+  border: 3px;
+  border-color: black;
+  border-style: solid;
+}
+
+#blambo
+{
+  height: 468px;
+  width: 700px;
+  border: 3px;
+  border-color: black;
+  border-style: solid;
+}
+
+#levelDesign
+{
+  height: 468px;
+  width: 700px;
+  border: 3px;
+  border-color: black;
+  border-style: solid;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 130px 2px;
+
+
+}
+
+.profile ul{
+float: left;
+border-style: solid;
+padding: 10px 5px;
+font-family: 'Khand', sans-serif;
+font-size: 1.4rem;
+text-align: left;
+margin: 50px 1273.5px;
+}
+
+.profile ul li{
+  display: inline-table;
+  line-height: 20px;
+}
+
+#ProfileHead{
+    position: absolute;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 60px;
+    margin: 10px -400px;
+    padding: 0px 15px;
+    border: 3px;
+    border-style: solid;
+  }
+
+
+
+}

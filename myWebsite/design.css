@@ -759,3 +759,306 @@ section nav ol li{
 
 
 }
+
+@media (min-width: 401px) and (max-width:821px)
+{
+  body {
+    width: 100vw;
+    background-repeat: repeat;
+  }
+
+  header{
+   width: 135.5vw;
+  }
+
+  #BlogHead{
+    color: black;
+    position: absolute;
+    font-size: 2rem;
+    line-height: 60px;
+    margin: 10px -400px;
+    padding: 0px 20px;
+
+  }
+
+  #SectionOneB {
+    position: absolute;
+    top: 72%;
+    left: 72%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    height: 35vh;
+    width: 150%;
+    line-height: 11px;
+  }
+
+  #SectionTwoB {
+    top: 140%;
+    left: 72%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    height: 75vh;
+    width: 150%;
+    background-repeat: repeat-y;
+  }
+
+  #SectionThree {
+    top: 142%;
+    left: 72%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    height: 25vh;
+    width: 150%;
+  }
+  
+
+  #AboutHead {
+    font-size: 2rem;
+    line-height: 60px;
+    margin: 10px -400px;
+    padding: 0px 10px;
+  }
+
+  #AboutP{
+    font-size: 1.25rem;
+    margin: 85px 10px -20px 10px;
+    padding: 5px 5px;
+    border: 3px;
+    border-style: solid;
+    text-align: left;
+    line-height: 21px ;
+  }
+
+
+
+  #AboutP2{
+    font-size: 1.25rem;
+    margin: 425px 10px -20px 10px;
+    padding: 5px 5px;
+    border: 3px;
+    border-style: solid;
+    text-align: left;
+    line-height: 21px ;
+  }
+  
+  #AboutP3{
+    font-size: 1.25rem;
+    margin: 100px 10px -20px 10px;
+    padding: 5px 5px;
+    border: 3px;
+    border-style: solid;
+    text-align: left;
+    line-height: 21px ;
+  }
+
+  #AboutP4{
+    font-size: 1.25rem;
+    margin: 500px 10px 0 10px;
+    padding: 5px 5px;
+    border: 3px;
+    border-style: solid;
+    text-align: left;
+    line-height: 21px ;  
+    }
+
+    #AboutP5{
+      font-size: 1.25rem;
+      margin: 325px 30px 0 30px;
+      padding: 5px 5px;
+      border: 3px;
+      border-style: solid;
+      text-align: left;
+      line-height: 18px ;  
+      }
+    
+      #AboutP6{
+      font-size: 1.25rem;
+      margin: 610px 30px 0 30px;
+      padding: 5px 5px;
+      border: 3px;
+      border-style: solid;
+      text-align: left;
+      line-height: 18px ;  
+      }
+    
+      #AboutP7{
+        font-size: 1.25rem;
+        margin: 90px 30px 0 30px;
+        padding: 5px 5px;
+        border: 3px;
+        border-style: solid;
+        text-align: left;
+        line-height: 18px ; 
+        }
+
+  #logo{
+    padding: 0 3%;
+  }
+
+  .bars{
+    display: block;
+    margin: -9% 3.3%;
+  }
+
+  nav ul{
+    position: fixed;
+    width: 100%;
+    height: 50vh;
+    text-align: center;
+    top: 69px;
+    z-index: 1;
+    left: -130%;
+  }
+
+  #HeaderNav{
+    background:  rgba(156, 153, 153, 0.659);
+  }
+  nav ul li{
+    display: block;
+    padding: 10px 0;
+
+  }
+
+  nav ul li label{
+    font-size: 25px;
+    background-color: black;
+  }
+
+
+  #menuCheck:checked {
+    left: 0;
+  }
+
+  footer {
+    height: 11vh;
+    width: 135.5vw;
+    position: absolute;
+    top: 125%;
+  }
+
+  main {
+    top: 10%;
+     height: 80vh ;
+  }
+
+  footer ul {
+    margin: 3% 2% 0 2%;
+
+  }
+
+  footer ul li {
+    font-size: 2rem;
+    display: inline-block;
+    text-decoration: dashed;
+    margin: 0 2.9%;
+  }
+
+  #foot {
+    padding: 0.8% 3%;
+    border-radius: 22.7rem;
+    
+  }
+
+  section nav ol {
+    margin: 100px 35px; 
+  }
+  
+section nav ol li{
+    font-size: 2rem;
+  }
+  
+ section nav ol li label{
+    font-size: 2rem;
+    line-height: 30px;
+  } 
+
+  #wfHome{
+    position: absolute;
+    margin: 90px -350px;
+    height: 750px;
+    width: 700px;
+  }
+
+  #sgCol{
+    position: absolute;
+    margin: 90px -350px;
+    height: 750px;
+    width: 700px;
+  }
+  
+  #sgIcon{
+    position: absolute;
+    margin: 260px -175px;
+
+    height: 127.5px;
+    width: 356px;
+  }
+  #labelIcon
+{
+  position: absolute;
+  font-size: 1.25rem;
+  margin: 400px  -125px;
+}
+
+#sgB1{
+  position: absolute;
+  margin: 625px -250px;
+  border: 3px;
+  border-color: black;
+  border-style: solid;
+  height: 180px;
+  width: 120px;
+}
+
+#sgB2{
+  position: absolute;
+  margin: 685px -108px;
+  border: 3px;
+  border-color: black;
+  border-style: solid;
+  height: 120px;
+  width: 180px;
+}
+
+#sgB3{
+  position: absolute;
+  margin: 655px 100px;
+  border: 3px;
+  border-color: black;
+  border-style: solid;
+  height: 150px;
+  width: 15z0px;
+}
+
+#labelIcon2
+{
+  position: absolute;
+  font-size: 0.75rem;
+  margin: 500px -90px;
+}
+
+#sgheader{
+  position: absolute;
+  margin: 275px -450px;
+  height: 60px;
+  width: 900px;
+}
+#sgfooter{
+  position: absolute;
+  margin: 350px -450px;
+  border: 3px;
+  border-color: black;
+  border-style: solid;
+  height: 60px;
+  width: 900px;
+}
+
+#labelhf
+{
+  position: absolute;
+  font-size: 1.25rem;
+  margin: 425px -125px;
+}
+
+
+}
