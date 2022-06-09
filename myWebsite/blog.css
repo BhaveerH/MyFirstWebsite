@@ -250,19 +250,18 @@ section nav {
   
 section nav ol {
     float: left;
-    margin: 40px 20px;
+    margin: 175px 45px;
     text-align: left; 
   }
   
 section nav ol li{
     margin-right: 25px;
-    font-size: 0.75rem;
   }
   
  section nav ol li label{
     text-decoration: none;
     list-style-type: decimal;
-    font-size: 0.5rem;
+    font-size: 25px;
     color: black;
     margin: 0 20px;
     cursor: pointer;
@@ -460,6 +459,18 @@ section nav ol li label:hover {
     border-radius: 22.7rem;
     
   }
+
+  section nav ol {
+    margin: 40px 20px; 
+  }
+  
+section nav ol li{
+    font-size: 0.75rem;
+  }
+  
+ section nav ol li label{
+    font-size: 0.5rem;
+  } 
 
 
 }
