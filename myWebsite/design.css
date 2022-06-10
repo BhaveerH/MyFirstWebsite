@@ -465,6 +465,7 @@ label.active {
 
   header{
    width: 135.5vw;
+   z-index: 1;
   }
 
   #BlogHead{
@@ -608,14 +609,37 @@ label.active {
 
   #HeaderNav{
     background:  rgba(156, 153, 153, 0.659);
+    backdrop-filter: blur(7px);
+    position: absolute;
+    left: 0px;
+    height: 35vh;
+    top: 8.1vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    transform: translateX(185%);
+
+    z-index: 1;
   }
+
+  #HeaderNav.mover {
+    transform: translateX(400%);
+    display: none
+  } 
   nav ul li{
     display: block;
     padding: 10px 0;
 
   }
 
-  nav ul li label{
+  nav ul li{
+    display: block;
+    padding: 10px 0;
+
+  }
+
+  nav ul li button{
     font-size: 25px;
     background-color: black;
   }
@@ -769,6 +793,7 @@ section nav ol li{
 
   header{
    width: 135.5vw;
+   z-index: 1;
   }
 
   #BlogHead{
@@ -912,14 +937,31 @@ section nav ol li{
 
   #HeaderNav{
     background:  rgba(156, 153, 153, 0.659);
+    backdrop-filter: blur(7px);
+    position: absolute;
+    left: 0px;
+    height: 30vh;
+    top: 5.4vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    transform: translateX(274%);
   }
+
+  #HeaderNav.mover {
+    transform: translateX(400%);
+    display: none
+  }
+
+
   nav ul li{
     display: block;
     padding: 10px 0;
 
   }
 
-  nav ul li label{
+  nav ul li button{
     font-size: 25px;
     background-color: black;
   }

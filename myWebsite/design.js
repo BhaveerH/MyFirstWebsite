@@ -60,7 +60,19 @@ function dLinkNineClick() {
   window.open("design9.html", "_self");
 }
 
+function mobileNav() {
 
+  const bars = document.querySelector(".bars");
+  const header = document.getElementById('HeaderNav');
+
+  bars.addEventListener('click', e => {
+
+    header.classList.toggle("mover");
+
+  });
+
+}
+  mobileNav();
 
 
 btnBlog.addEventListener('click', blogLinkClick);

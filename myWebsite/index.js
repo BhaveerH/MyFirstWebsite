@@ -30,6 +30,24 @@ function portLinkClick() {
   window.open("myWebsite/portfolio.html", "_blank");
 }
 
+function mobileNav() {
+
+  const bars = document.querySelector(".bars");
+  const header = document.getElementById('HeaderNav');
+
+  bars.addEventListener('click', e => {
+
+    header.classList.toggle("mover");
+
+  });
+
+}
+  mobileNav();
+
+
+
+
+
 btnDesign.addEventListener('click', designLinkClick);
 btnBlog.addEventListener('click', blogLinkClick);
 btnPort.addEventListener('click', portLinkClick);

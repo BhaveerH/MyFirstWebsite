@@ -64,6 +64,20 @@ function bLinkTenClick() {
   window.open("blog10.html", "_self");
 }
 
+function mobileNav() {
+
+  const bars = document.querySelector(".bars");
+  const header = document.getElementById('HeaderNav');
+
+  bars.addEventListener('click', e => {
+
+    header.classList.toggle("mover");
+
+  });
+
+}
+  mobileNav();
+
 btnDesign.addEventListener('click', designLinkClick);
 btnIndex.addEventListener('click', homeLinkClick);
 btnPort.addEventListener('click', portLinkClick);

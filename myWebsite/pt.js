@@ -27,6 +27,20 @@ function blogLinkClick() {
   window.open("blog.html", "_blank");
 }
 
+function mobileNav() {
+
+  const bars = document.querySelector(".bars");
+  const header = document.getElementById('HeaderNav');
+
+  bars.addEventListener('click', e => {
+
+    header.classList.toggle("mover");
+
+  });
+
+}
+  mobileNav();
+
 btnDesign.addEventListener('click', designLinkClick);
 btnIndex.addEventListener('click', homeLinkClick);
 btnBlog.addEventListener('click', blogLinkClick);
