@@ -333,7 +333,7 @@ a.active {
 * {box-sizing:border-box}
 
 
-.slideshow-container {
+.slideReel-container {
   max-width: 100%;
   position: relative;
   margin: auto;
@@ -341,7 +341,7 @@ a.active {
 }
 
 
-.mySlides {
+.mySlideShow {
   display: none;
   
 }
@@ -349,7 +349,7 @@ a.active {
 
 
 
-.text {
+.caption {
   color: black;
   font-size: 18px;
   padding: 8px 12px;

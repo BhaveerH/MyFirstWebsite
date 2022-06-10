@@ -5,7 +5,7 @@ let iSlideCount = 0;
 slideShow();
 
 function slideShow() {
-  let slideDeck = document.getElementsByClassName("mySlides");
+  let slideDeck = document.getElementsByClassName("mySlideShow");
   for (let i = 0; i < slideDeck.length; i++) {
     slideDeck[i].style.display = "none";
   }
