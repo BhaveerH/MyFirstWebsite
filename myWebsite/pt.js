@@ -1,21 +1,19 @@
-const btnDesign = document.getElementById('linkDesign');
+/*const btnDesign = document.getElementById('linkDesign');
 const btnIndex = document.getElementById('linkIndex');
-const btnBlog = document.getElementById('linkBlog');
-let iSlideCount = 0;
-slideShow();
+const btnBlog = document.getElementById('linkBlog'); */
 
-function slideShow() {
-  let slideDeck = document.getElementsByClassName("mySlideShow");
-  for (let i = 0; i < slideDeck.length; i++) {
-    slideDeck[i].style.display = "none";
-  }
-  iSlideCount++;
-  if (iSlideCount > slideDeck.length) {iSlideCount = 1}
-  slideDeck[iSlideCount-1].style.display = "block";
-  setTimeout(slideShow, 3000); 
-}
 
-function designLinkClick() {
+ $(document).ready(function () {
+        $(".wrapper").slick({
+          dots: true,
+          arrows: false,
+          autoplay: true,
+          autoplaySpeed: 3000,
+          centerMode: true,
+        });
+      });
+
+/*function designLinkClick() {
   window.open("design.html", "_blank");
 }
 
@@ -43,4 +41,4 @@ function mobileNav() {
 
 btnDesign.addEventListener('click', designLinkClick);
 btnIndex.addEventListener('click', homeLinkClick);
-btnBlog.addEventListener('click', blogLinkClick);
+btnBlog.addEventListener('click', blogLinkClick); */

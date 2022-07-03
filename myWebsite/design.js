@@ -1,6 +1,6 @@
-const btnBlog = document.getElementById('linkBlog');
+/*const btnBlog = document.getElementById('linkBlog');
 const btnIndex = document.getElementById('linkIndex');
-const btnPort = document.getElementById('linkPort');
+const btnPort = document.getElementById('linkPort'); */
 const dLinkOne = document.getElementById('linkOne');
 const dLinkTwo = document.getElementById('linkTwo');
 const dLinkThree = document.getElementById('linkThree');
@@ -12,7 +12,7 @@ const dLinkEight = document.getElementById('linkEight');
 const dLinkNine = document.getElementById('linkNine');
 
 
-function blogLinkClick() {
+/*function blogLinkClick() {
   window.open("blog.html", "_blank");
 }
 
@@ -22,7 +22,7 @@ function homeLinkClick() {
 
 function portLinkClick() {
   window.open("portfolio.html", "_blank");
-}
+} */
 
 function dLinkOneClick() {
   window.open("design.html", "_self");
@@ -60,7 +60,7 @@ function dLinkNineClick() {
   window.open("design9.html", "_self");
 }
 
-function mobileNav() {
+/*function mobileNav() {
 
   const bars = document.querySelector(".bars");
   const header = document.getElementById('HeaderNav');
@@ -72,12 +72,12 @@ function mobileNav() {
   });
 
 }
-  mobileNav();
+  mobileNav(); */
 
 
-btnBlog.addEventListener('click', blogLinkClick);
+/*btnBlog.addEventListener('click', blogLinkClick);
 btnIndex.addEventListener('click', homeLinkClick);
-btnPort.addEventListener('click', portLinkClick);
+btnPort.addEventListener('click', portLinkClick); */
 dLinkOne.addEventListener('click', dLinkOneClick);
 dLinkTwo.addEventListener('click', dLinkTwoClick);
 dLinkThree.addEventListener('click',dLinkThreeClick);
