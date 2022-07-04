@@ -1006,12 +1006,12 @@ section nav ol li{
   }
   
 section nav ol li{
-    font-size: 2rem;
+    font-size: 1rem;
   }
   
  section nav ol li label{
-    font-size: 2rem;
-    line-height: 30px;
+    font-size: 1.5rem;
+    line-height: 28px;
   } 
 
   #wfHome{

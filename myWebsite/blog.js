@@ -11,6 +11,8 @@ const bLinkSeven = document.getElementById('linkSeven');
 const bLinkEight = document.getElementById('linkEight');
 const bLinkNine = document.getElementById('linkNine');
 const bLinkTen = document.getElementById('linkTen');
+const bLinkEleven = document.getElementById('linkEleven');
+const bLinkTwelve = document.getElementById('linkTwelve');
 
 /*function designLinkClick() {
   window.open("design.html", "_blank");
@@ -64,6 +66,14 @@ function bLinkTenClick() {
   window.open("blog10.html", "_self");
 }
 
+function bLinkElevenClick() {
+  window.open("blog11.html", "_self");
+}
+
+function bLinkTwelveClick() {
+  window.open("blog12.html", "_self");
+}
+
 /*function mobileNav() {
 
   const bars = document.querySelector(".bars");
@@ -91,3 +101,5 @@ bLinkSeven.addEventListener('click', bLinkSevenClick);
 bLinkEight.addEventListener('click', bLinkEightClick);
 bLinkNine.addEventListener('click', bLinkNineClick);
 bLinkTen.addEventListener('click', bLinkTenClick);
+bLinkEleven.addEventListener('click', bLinkElevenClick);
+bLinkTwelve.addEventListener('click', bLinkTwelveClick);

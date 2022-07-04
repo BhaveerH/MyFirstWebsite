@@ -250,7 +250,7 @@ section nav {
   
 section nav ol {
     float: left;
-    margin: 175px 45px;
+    margin: 150px 45px;
     text-align: left; 
   }
   
@@ -494,6 +494,7 @@ section nav ol li{
   
  section nav ol li label{
     font-size: 0.5rem;
+    line-height: 5px;
   } 
 
 
@@ -676,7 +677,7 @@ section nav ol li{
   }
 
   section nav ol {
-    margin: 100px 40px; 
+    margin: 80px 40px; 
   }
   
 section nav ol li{
@@ -685,7 +686,7 @@ section nav ol li{
   
  section nav ol li label{
     font-size: 1.5rem;
-    line-height: 25px;
+    line-height: 24px;
   } 
 
 

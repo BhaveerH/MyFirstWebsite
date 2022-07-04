@@ -10,6 +10,7 @@ const dLinkSix = document.getElementById('linkSix');
 const dLinkSeven = document.getElementById('linkSeven');
 const dLinkEight = document.getElementById('linkEight');
 const dLinkNine = document.getElementById('linkNine');
+const dLinkTen = document.getElementById('linkTen');
 
 
 /*function blogLinkClick() {
@@ -60,6 +61,10 @@ function dLinkNineClick() {
   window.open("design9.html", "_self");
 }
 
+function dLinkTenClick() {
+  window.open("design10.html", "_self");
+}
+
 /*function mobileNav() {
 
   const bars = document.querySelector(".bars");
@@ -87,3 +92,4 @@ dLinkSix.addEventListener('click', dLinkSixClick);
 dLinkSeven.addEventListener('click', dLinkSevenClick);
 dLinkEight.addEventListener('click', dLinkEightClick);
 dLinkNine.addEventListener('click', dLinkNineClick);
+dLinkTen.addEventListener('click', dLinkTenClick);

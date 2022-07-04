@@ -722,7 +722,16 @@ margin: -10px 603px;
     border-style: solid;
   }
 
+  img 
+  {
+    height: 234px;
+    width: 340px;
+    margin: 0 auto;
+  }
+
 }
+
+
 
 @media (min-width: 401px) and (max-width:821px)
 {
@@ -1003,6 +1012,18 @@ margin: 50px 1273.5px;
     padding: 0px 15px;
     border: 3px;
     border-style: solid;
+  }
+
+  .wrapper{
+    margin: px, -100px, px, 200%;
+    top: 15%;
+  }
+
+  img 
+  {
+    height: 468px;
+    width: 700px;
+    margin: 0 auto;
   }
 
 
